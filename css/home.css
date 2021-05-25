@@ -73,41 +73,7 @@ home2 > .text {
 .text > .p1:hover {
   color: black;
 }
-/* Animate */
-/* .fontclr {
-  margin-left: 10px;
-  overflow: hidden;
-  white-space: nowrap;
-  border-right: 4px solid #1de2d1;
-  animation: typing 5s steps(23) infinite;
-}
-@keyframes typing {
-  0% {
-    width: 0ch;
-  }
-  50% {
-    width: 23ch;
-  }
-  100% {
-    width: 0ch;
-  }
-}
-.fontclr {
-  margin-left: 10px;
-  animation: typing steps(23) 5s infinite;
-  background-color: turquoise;
-} */
-/* @keyframes typing {
-  0% {
-    color: #1de2d1;
-  }
-  50% {
-    color: white;
-  }
-  100% {
-    color: #1de2d1;
-  }
-}
+
 /* Responsive */
 @media screen and (max-width: 767px) {
   home {
@@ -121,9 +87,6 @@ home2 > .text {
   }
   home2 {
     display: flex;
-  }
-  home {
-    display: none;
   }
   /* .detail img {
     width: 100%;
@@ -148,4 +111,22 @@ home2 > .text {
     width: 40%;
     height: auto;
   } */
+}
+/* Animate */
+.div3,
+.animate {
+  animation: typing 6s infinite;
+  overflow: hidden;
+  white-space: nowrap;
+}
+@keyframes typing {
+  0% {
+    width: 0ch;
+  }
+  50% {
+    width: 28ch;
+  }
+  100% {
+    width: 0ch;
+  }
 }
