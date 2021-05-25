@@ -1,0 +1,28 @@
+/* Education */
+.edu {
+  padding: 2rem;
+  background-color: #28231d;
+  color: white;
+  font-family: "PT Sans Narrow", sans-serif;
+  text-align: center;
+  font-size: 1.3rem;
+  margin-top: 4rem;
+  /* margin-bottom: 6rem; */
+  padding-top: 4rem;
+  padding-bottom: 8rem;
+}
+.edu h2 {
+  padding-bottom: 2rem;
+  font-size: 2.8rem;
+}
+.p1 {
+  font-size: 1.8rem;
+  /* color: #868e96; */
+}
+.p2 {
+  font-weight: 1rem;
+  /* color: #868e96; */
+}
+.p3 {
+  font-size: 1.2rem;
+}

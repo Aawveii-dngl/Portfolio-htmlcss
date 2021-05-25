@@ -1,0 +1,28 @@
+/* SKILLS */
+/* #868e96 */
+.skills h2 {
+  padding-bottom: 2rem;
+  font-size: 2.8rem;
+}
+.skills {
+  padding-top: 6rem;
+  text-align: center;
+  font-family: "PT Sans Narrow", sans-serif;
+  margin-bottom: 14rem;
+}
+.p4 {
+  font-size: 2rem;
+  color: #868e96;
+  margin-bottom: 2rem;
+}
+
+.skills > .skill i {
+  font-size: 3rem;
+  color: #868e96;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+}
+.p4:hover,
+.skills > .skill i:hover {
+  color: #000;
+}
