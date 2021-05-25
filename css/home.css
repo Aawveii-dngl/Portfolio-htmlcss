@@ -11,9 +11,9 @@ home {
 .detail img {
   height: 20rem;
 }
-/* .fontclr {
+.fontclr {
   color: #1de2d1;
-} */
+}
 .detail {
   position: relative;
 }
@@ -45,12 +45,40 @@ home {
   border-radius: 10rem;
   background-color: #ffffff;
 }
+home2 {
+  display: flex;
+  display: none;
+  justify-content: space-evenly;
+}
+home2 > .image img {
+  height: 30rem;
+}
+home2 > .text {
+  font-family: "PT Sans Narrow", sans-serif;
+  color: #868e96;
+  margin: auto;
+}
+.text h2 {
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  font-size: 2.8rem;
+}
+
+.text > .p3:hover {
+  color: black;
+}
+.text > h2:hover {
+  color: black;
+}
+.text > .p1:hover {
+  color: black;
+}
 /* Animate */
-.fontclr {
+/* .fontclr {
   margin-left: 10px;
-  /* overflow: hidden; */
-  /* white-space: nowrap; */
-  /* border-right: 4px solid #1de2d1; */
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 4px solid #1de2d1;
   animation: typing 5s steps(23) infinite;
 }
 @keyframes typing {
@@ -64,7 +92,7 @@ home {
     width: 0ch;
   }
 }
-/* .fontclr {
+.fontclr {
   margin-left: 10px;
   animation: typing steps(23) 5s infinite;
   background-color: turquoise;
@@ -79,4 +107,45 @@ home {
   100% {
     color: #1de2d1;
   }
-} */
+}
+/* Responsive */
+@media screen and (max-width: 767px) {
+  home {
+    display: none;
+  }
+  home2 {
+    display: block;
+  }
+  home2 > .image img {
+    height: 15rem;
+  }
+  home2 {
+    display: flex;
+  }
+  home {
+    display: none;
+  }
+  /* .detail img {
+    width: 100%;
+    height: auto;
+  }
+  .detail > .div1 {
+    left: 3rem;
+    top: 2.3rem;
+    font-size: 1.3rem;
+  }
+  .detail > .div2 {
+    left: 3rem;
+    top: 4.6rem;
+    font-size: 1.8rem;
+  }
+  .detail > .div3 {
+    left: 3rem;
+    top: 7rem;
+    font-size: 1.5rem;
+  }
+  .photo img {
+    width: 40%;
+    height: auto;
+  } */
+}
